@@ -93,7 +93,7 @@ class _DynamicFormRendererPageState extends State<DynamicFormRendererPage> {
 
   Widget _buildField(DynamicField f) {
     final validators = <String? Function(String?)>[
-      if (f.required) _noBlank, // 🔑 custom rule
+      if (f.required) _noBlank,
       if (f.type == 'email' || f.key.toLowerCase().contains('email'))
         FormBuilderValidators.email(errorText: 'Invalid e‑mail'),
       if (f.min != null) FormBuilderValidators.min(f.min!),
@@ -160,7 +160,6 @@ class _DynamicFormRendererPageState extends State<DynamicFormRendererPage> {
     }
   }
 
-  /* submit */
   void _handleSubmit() {
     if (_formKey.currentState?.saveAndValidate() ?? false) {
       final values = _formKey.currentState!.value;
