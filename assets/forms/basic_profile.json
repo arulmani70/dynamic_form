@@ -1,0 +1,8 @@
+[
+  { "type": "section", "label": "Personal Info" },
+  { "type": "text", "label": "Full Name", "key": "name", "required": true },
+  { "type": "dropdown", "label": "Gender", "key": "gender",
+    "required": true, "options": ["Male","Female","Other"] },
+  { "type": "section", "label": "Contact" },
+  { "type": "number", "label": "Mobile", "key": "mobile", "required": true }
+]

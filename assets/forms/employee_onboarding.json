@@ -1,0 +1,24 @@
+[
+  
+  { "type": "title",   "label": "Employee On-Boarding Form" },
+  { "type": "section", "label": "Personal Details" },
+
+  { "type": "text",     "label": "First Name",  "key": "firstName", "required": true },
+  { "type": "text",     "label": "Last Name",   "key": "lastName",  "required": true },
+  { "type": "dropdown", "label": "Gender",      "key": "gender",    "required": true,
+    "options": ["Male", "Female", "Other"] },
+  { "type": "number",   "label": "Age",         "key": "age",       "min": 18, "max": 65 },
+
+  { "type": "section",  "label": "Job Details" },
+
+  { "type": "dropdown", "label": "Department",  "key": "department", "required": true,
+    "options": ["HR", "Engineering", "Sales", "Finance", "Operations"] },
+  { "type": "text",     "label": "Job Title",   "key": "jobTitle",   "required": true },
+  { "type": "number",   "label": "Experience (years)", "key": "experience",
+    "required": true, "min": 0, "max": 40 },
+
+  { "type": "section",  "label": "Contact" },
+
+  { "type": "text",     "label": "Email Address", "key": "email",  "required": true },
+  { "type": "text",     "label": "Phone Number",  "key": "phone",  "required": true }
+]
