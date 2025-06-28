@@ -1,7 +1,7 @@
 # 📱 Dynamic Form & Paginated Users – Flutter Demo
 
 > **Author :** Arulmani  
-> **Target Flutter :** 3.22 + (stable)  
+> **Target Flutter :** 3.22.5 + (stable)  
 > **State :** POC / interview assignment ✅
 
 ---
